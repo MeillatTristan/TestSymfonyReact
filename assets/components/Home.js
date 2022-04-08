@@ -1,5 +1,6 @@
 // ! COMPONENTS
 import User from './User';
+import Form from './Form';
 // ! FILES
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
@@ -35,6 +36,7 @@ const Home = () => {
   return (
     <main className='main-container'>
       <User users={users} />
+      <Form />
     </main>
   );
 };
